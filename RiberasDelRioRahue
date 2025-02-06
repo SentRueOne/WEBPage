@@ -1,1 +1,83 @@
-<h1>github pages tst</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcelas en Osorno</title>
+    <link rel="stylesheet" href="parcelas-osorno-css.css"> <!-- Conexión con el archivo CSS -->
+</head>
+<body>
+
+    <!-- Encabezado con el logo y el menú de navegación -->
+    <header>
+        <img src="C:\Users\HP\Desktop\WEb index prototipo indev fron back\Imagenes a usar en el proyecto\Logo RIBERAS-Photoroom.png" alt="Logo">
+        <nav>
+            <a href="#parcelacion">Parcelación</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#precios">Precios</a>
+            <a href="#como-comprar">¿Cómo comprar?</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección principal de la página -->
+    <main id="hero">
+        <div class="Principal">
+            <h1>Parcelas en Osorno</h1> 
+            <p>5000m<sup>2</sup> a 15 minutos de Osorno</p> <!-- Información sobre las parcelas -->
+        </div>
+
+        <!-- Video promocional -->
+        <video autoplay loop controls>
+            <source src="C:\Users\HP\Downloads\Proyecto Ribera Río Rahue, Osorno, Chile.mp4" type="video/mp4">
+        </video>
+        <div class="capa"></div>
+    </main>
+
+    <!-- Sección de características del proyecto -->
+    <section class="features" id="parcelacion">
+        <h2>Características</h2>
+        <p>Descubre las ventajas de nuestras parcelas RiberasDelRioRahue.</p>
+
+        <!-- Contenedor de íconos con información -->
+        <div class="icons">
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\contract.png" alt="Rol propio">
+                <p>Rol Propio y SAG aprobado</p>
+            </div>
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\Ubicacion.png" alt="Ubicación">
+                <p>Ubicación privilegiada, a 10 minutos de Osorno</p>
+            </div>
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\road.png" alt="Ruta 5">
+                <p>Acceso por Ruta 5</p>
+            </div>
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\car.png" alt="Caminos">
+                <p>Caminos compactados</p>
+            </div>
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\water-tap.png" alt="Agua">
+                <p>Agua</p>
+            </div>
+            <div class="icon">
+                <img src="C:\Users\HP\Desktop\Imagenes\stats.png" alt="Plusvalía">
+                <p>Alta plusvalía</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón de llamada a la acción -->
+    <button>
+        <span> Elige tu parcela </span>
+    </button>
+
+    <!-- Pie de página con derechos de autor -->
+    <footer>
+        Franco Creation Web Design &copy; 2025
+    </footer>
+
+</body>
+</html>
